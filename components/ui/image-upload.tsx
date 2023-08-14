@@ -43,7 +43,7 @@ const ImageUpload: React.FC<ImageUploadProps>= ({
                     <div key={url} className="relative w-[200px] h-[200px] rounded-md overflow-hidden">
                         <div className="z-10 absolute top-2 right-2">
                         <Button
-                        type="submit" 
+                        type="button" 
                         onClick={()=>onRemove(url)} 
                         variant="destructive" 
                         size="icon"
@@ -62,7 +62,7 @@ const ImageUpload: React.FC<ImageUploadProps>= ({
             </div>
             <CldUploadWidget onUpload={onUpload} uploadPreset="s6qinmvr">
                 {({open})=>{
-                    const  onClick =()=>{
+                    const  onClick= ()=>{
                         open();
                     }
                     return(
