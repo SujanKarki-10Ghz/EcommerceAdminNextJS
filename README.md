@@ -12,7 +12,7 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [https://ecommerce-admin-next-81yz8nsl3-sujankarki-10ghz.vercel.app]([http://localhost:3000](https://ecommerce-admin-next-81yz8nsl3-sujankarki-10ghz.vercel.app)) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
